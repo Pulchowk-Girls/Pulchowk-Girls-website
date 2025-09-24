@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Pulchowk Girls Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the official website repository for **Pulchowk Girls**, an inclusive and empowering community dedicated to nurturing leadership, fostering professional development, and advocating for gender equality. This website serves as a platform to showcase our mission, activities, events, and partners.
 
-## Available Scripts
+---
+
+## About Pulchowk Girls
+
+Pulchowk Girls is established with the purpose of:
+- Nurturing and cultivating leadership skills.
+- Fostering professional development.
+- Advocating for gender equality among its members.
+
+Our core motto is to challenge prevailing gender stereotypes and contribute to a better world through education, empowerment, and equal opportunities. We organize a variety of engaging activities, including debates, competitions, and programs aimed at personal growth, critical thinking, and talent showcase.
+
+> In summary, Pulchowk Girls is not just a community, but a movement. We are dedicated to fostering leadership, breaking barriers, and promoting gender equality through education, empowerment, and solidarity.
+
+---
+
+## Features
+
+- **Homepage**: Introduction and group image.
+- **About Us**: Details our mission and vision.
+- **Events**: Showcases recent events (e.g., PAVAN - Pads Accessible Visible Available Now).
+- **Partners & Collaborators**: Highlights supporting organizations.
+- **Contact Us**: Contact information and ways to reach out.
+
+---
+
+## Tech Stack
+
+- **Frontend:** React (bootstrapped with [Create React App](https://github.com/facebook/create-react-app))
+- **Styling:** Custom CSS, Bootstrap
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Pulchowk-Girls/Pulchowk-Girls-website.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd Pulchowk-Girls-website
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- **`npm start`**  
+  Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload on changes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **`npm test`**  
+  Launches the test runner.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **`npm run build`**  
+  Builds the app for production to the `build` folder.
 
-### `npm test`
+- **`npm run eject`**  
+  Copies configuration files and dependencies for full control (irreversible).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For more details, see the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Folder Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `/src/Pages` — Contains main page components: Home, AboutUs, Events, Sponsers, ContactUs
+- `/src/styles` — CSS files for component styling
+- `/public` — Static assets and HTML template
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+We welcome contributions! Please fork the repository and submit a pull request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project currently does not specify a license.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For queries or to get involved, please reach out via the "Contact Us" page on the website.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
