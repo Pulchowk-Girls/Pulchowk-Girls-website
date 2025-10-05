@@ -1,5 +1,15 @@
 import React from "react";
 import "../styles/ContactUs.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 function ContactUs() {
   return (
@@ -16,12 +26,36 @@ function ContactUs() {
         }}
       />
       <div className="contact-us-container-content">
-        <h5 style={{ marginBottom: "20px" }}>CONTACT US</h5>
-        <p>
-          +9779847630043 <br />
-          Pulchowk Campus, Lalitpur <br />
-          pulchowkgirls@pcampus.edu.np
-        </p>
+        <section className="contact-us-header">
+          <h5 style={{ marginBottom: "20px" }}>CONTACT US</h5>
+          <p>
+            <FontAwesomeIcon icon={faPhone} /> +9779847630043 <br />
+            <FontAwesomeIcon icon={faLocationDot} /> Pulchowk Campus, Lalitpur
+            <br />
+            <FontAwesomeIcon icon={faEnvelope} /> pulchowkgirls@pcampus.edu.np
+          </p>
+        </section>
+
+        <section className="quick-links-section">
+          <h5 style={{ marginBottom: "20px" }}>QUICK LINKS</h5>
+          <p>
+            Home <br />
+            About Us <br />
+            Events <br />
+            Sponsors <br />
+          </p>
+        </section>
+
+        <section className="follow-us-section">
+          <h5 style={{ marginBottom: "20px" }}>FOLLOW US</h5>
+          <p>
+            <FontAwesomeIcon icon={faFacebook} /> /pulchowk.girls <br />
+            <FontAwesomeIcon icon={faInstagram} /> /pulchowk.girls <br />
+            <FontAwesomeIcon icon={faGithub} /> /Pulchowk-girls <br />
+            <FontAwesomeIcon icon={faLinkedin} />{" "}
+            /company/ioe-pulchowk-girls/mycompany <br />
+          </p>
+        </section>
       </div>
     </div>
   );
