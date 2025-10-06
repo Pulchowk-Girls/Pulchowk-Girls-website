@@ -22,7 +22,7 @@ function ContactUs() {
           marginRight: "8px",
           marginLeft: "60px",
           verticalAlign: "middle",
-          marginBottom: "60px",
+          marginBottom: "40px",
         }}
       />
       <div className="contact-us-container-content">

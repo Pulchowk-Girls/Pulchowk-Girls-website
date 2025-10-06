@@ -5,6 +5,7 @@ import Home from "./Pages/Home";
 import Events from "./Pages/Events";
 import Sponsers from "./Pages/Sponsers";
 import ContactUs from "./Pages/ContactUs";
+import Committee from "./Pages/Committee";
 function App() {
   return (
     <>
@@ -13,7 +14,8 @@ function App() {
       <AboutUs />
       <Events />
       <Sponsers />
-      <ContactUs/>
+      <Committee />
+      <ContactUs />
     </>
   );
 }
