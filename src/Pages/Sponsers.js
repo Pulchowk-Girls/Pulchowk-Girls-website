@@ -7,7 +7,7 @@ function Sponsers() {
   const sponsors = [
     { src: "/images/Sponsers/Makuchhen.png", alt: "Makuchhen" },
     { src: "/images/Sponsers/Sarvada.png", alt: "Sponsor 2" },
-    { src: "/Logo.png", alt: "Sponsor 3" },
+    { src: "/images/Sponsers/Plantae.png", alt: "Sponsor 3" },
     { src: "/Logo.png", alt: "Sponsor 4" },
     { src: "/Logo.png", alt: "Sponsor 5" },
     { src: "/Logo.png", alt: "Sponsor 6" },

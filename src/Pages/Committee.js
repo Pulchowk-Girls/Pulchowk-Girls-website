@@ -5,6 +5,7 @@ import {
   faGithub,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Committee() {
@@ -15,7 +16,7 @@ function Committee() {
       name: "Sujita Sharma",
       position: "President",
       bio: "Leading the organization with passion and dedication to empowering women in tech.",
-      initials: "SS",
+      photo: "/images/Committee/Sujita.jpg",
       social: { linkedin: "#", github: "#", instagram: "#" },
     },
     {
@@ -23,7 +24,7 @@ function Committee() {
       name: "Anupa Ranabhat",
       position: "Secretary",
       bio: "Supporting strategic initiatives and fostering inclusive community growth.",
-      initials: "AR",
+      photo: "/images/Committee/Anupa.jpg",
       social: { linkedin: "#", github: "#" },
     },
     {
@@ -31,7 +32,7 @@ function Committee() {
       name: "Swastika Acharya",
       position: "Event Manager",
       bio: "Managing organizational communications and maintaining official records.",
-      initials: "SA",
+      photo: "/images/Committee/Swastika.jpg",
       social: { linkedin: "#", instagram: "#" },
     },
     {
@@ -39,7 +40,7 @@ function Committee() {
       name: "Usha Kiran Adhikari",
       position: "Event Manager",
       bio: "Overseeing financial planning and budget management for all activities.",
-      initials: "UK",
+      photo: "/images/Committee/Usha.jpg",
       social: { linkedin: "#", github: "#" },
     },
     {
@@ -47,7 +48,7 @@ function Committee() {
       name: "Nikita Pradhan",
       position: "Finance Manager",
       bio: "Organizing engaging events and workshops for skill development.",
-      initials: "NP",
+      photo: "/images/Committee/Nikita.jpg",
       social: { linkedin: "#", instagram: "#" },
     },
     {
@@ -55,7 +56,7 @@ function Committee() {
       name: "Rittika Parajuli",
       position: "Public Relations Manager",
       bio: "Designing and conducting technical workshops for members.",
-      initials: "RP",
+      photo: "/images/Committee/Rittika.jpg",
       social: { linkedin: "#", github: "#" },
     },
     {
@@ -63,7 +64,7 @@ function Committee() {
       name: "Saaya Parajuli",
       position: "Public Relations Manager",
       bio: "Building partnerships with industry leaders and academic institutions.",
-      initials: "SP",
+      photo: "/images/Committee/Saaya.jpg",
       social: { linkedin: "#", instagram: "#" },
     },
     {
@@ -71,7 +72,7 @@ function Committee() {
       name: "Niharika Bhattarai",
       position: "Social Media Manager",
       bio: "Managing online presence and digital marketing strategies.",
-      initials: "NB",
+      photo: "/images/Committee/Niharika.jpg",
       social: { linkedin: "#", instagram: "#", github: "#" },
     },
     {
@@ -79,7 +80,7 @@ function Committee() {
       name: "Srijana Pant",
       position: "Social Media Manager",
       bio: "Creating engaging content for various platforms and publications.",
-      initials: "SP",
+      photo: "/images/Committee/Srijana.jpg",
       social: { linkedin: "#", instagram: "#" },
     },
     {
@@ -87,7 +88,7 @@ function Committee() {
       name: "Anuja Gyawali",
       position: "Technical Manager",
       bio: "Leading technical projects and mentoring junior developers.",
-      initials: "AG",
+      photo: "/images/Committee/Anuja.jpg",
       social: { linkedin: "#", github: "#" },
     },
     {
@@ -95,7 +96,7 @@ function Committee() {
       name: "Sachita Aryal",
       position: "Technical Manager",
       bio: "Developing and maintaining organizational web platforms.",
-      initials: "SA",
+      photo: "/images/Committee/Sachita.jpg",
       social: { linkedin: "#", github: "#" },
     },
     {
@@ -103,7 +104,7 @@ function Committee() {
       name: "Sadina Upreti",
       position: "Technical Manager",
       bio: "Analyzing data to drive informed decision-making processes.",
-      initials: "SU",
+      photo: "/images/Committee/Sadina.jpg",
       social: { linkedin: "#", github: "#" },
     },
     {
@@ -111,7 +112,7 @@ function Committee() {
       name: "Anshu Subedi",
       position: "Vice_Secretary",
       bio: "Coordinating research initiatives and academic collaborations.",
-      initials: "AS",
+      photo: "/images/Committee/Anshu.jpg",
       social: { linkedin: "#" },
     },
     {
@@ -119,7 +120,7 @@ function Committee() {
       name: "Pratistha Shrestha",
       position: "Event Coordinator",
       bio: "Developing mentorship programs for student success.",
-      initials: "PS",
+      photo: "/images/Committee/Pratistha.jpg",
       social: { linkedin: "#", instagram: "#" },
     },
     {
@@ -127,7 +128,7 @@ function Committee() {
       name: "Tika Rijal",
       position: "Event Coordinator",
       bio: "Building and nurturing our supportive community network.",
-      initials: "TR",
+      photo: "/images/Committee/Tika.jpg",
       social: { linkedin: "#", instagram: "#" },
     },
     {
@@ -135,7 +136,7 @@ function Committee() {
       name: "Swastika Lamichhane",
       position: "Event Coordinator",
       bio: "Organizing volunteer opportunities and community service projects.",
-      initials: "SL",
+      photo: "/images/Committee/SwastikaL.jpg",
       social: { linkedin: "#" },
     },
     {
@@ -143,7 +144,7 @@ function Committee() {
       name: "Sambriddhi Bhattarai",
       position: "Finance Coordinator",
       bio: "Securing sponsorships and managing corporate partnerships.",
-      initials: "SB",
+      photo: "/images/Committee/Sambriddhi.jpg",
       social: { linkedin: "#" },
     },
     {
@@ -151,7 +152,7 @@ function Committee() {
       name: "Samrachana Sharma",
       position: "Social Media Coordinator",
       bio: "Maintaining connections with alumni and expanding network.",
-      initials: "SS",
+      photo: "/images/Committee/Samrachana.webp",
       social: { linkedin: "#", instagram: "#" },
     },
     {
@@ -159,7 +160,7 @@ function Committee() {
       name: "Swechchha Pokhrel",
       position: "Social Media Coordinator",
       bio: "Leading design initiatives and visual brand development.",
-      initials: "SP",
+      photo: "/images/Committee/Swechchha.jpg",
       social: { linkedin: "#", instagram: "#" },
     },
     {
@@ -167,7 +168,7 @@ function Committee() {
       name: "Anshu Sharma",
       position: "Public Relations Coordinator",
       bio: "Creating visual content and marketing materials.",
-      initials: "AS",
+      photo: "/images/Committee/AnshuSha.jpg",
       social: { linkedin: "#", instagram: "#" },
     },
     {
@@ -175,7 +176,7 @@ function Committee() {
       name: "Prayusha Pokhrel",
       position: "Public Relations Coordinator",
       bio: "Managing organizational projects and coordinating teams.",
-      initials: "PP",
+      photo: "/images/Committee/Prayusha.jpg",
       social: { linkedin: "#" },
     },
     {
@@ -183,7 +184,7 @@ function Committee() {
       name: "Anjila Bashyal",
       position: "Technical Coordinator",
       bio: "Ensuring quality standards in all organizational deliverables.",
-      initials: "AB",
+      photo: "/images/Committee/Anjila.jpg",
       social: { linkedin: "#", github: "#" },
     },
     {
@@ -191,7 +192,7 @@ function Committee() {
       name: "Grishma Sitaula",
       position: "Technical Coordinator",
       bio: "Managing documentation and knowledge sharing initiatives.",
-      initials: "GS",
+      photo: "/images/Committee/Grishma.jpg",
       social: { linkedin: "#" },
     },
     {
@@ -199,7 +200,7 @@ function Committee() {
       name: "Komal Kushwaha",
       position: "Technical Coordinator",
       bio: "Supporting event planning and execution activities.",
-      initials: "KK",
+      photo: "/images/Committee/Komal.jpg",
       social: { instagram: "#" },
     },
   ];
@@ -211,17 +212,22 @@ function Committee() {
       </div>
 
       <div className="committee-container">
-
         {/* Members Grid */}
         <div className="committee-grid">
           {committeeMembers.map((member) => (
             <div key={member.id} className="member-card">
               <div className="member-photo">
-                {member.photo ? (
-                  <img src={member.photo} alt={member.name} />
-                ) : (
-                  member.initials
-                )}
+                <img
+                  src={member.photo}
+                  alt={member.name}
+                  onError={(e) => {
+                    e.target.style.display = "none";
+                    e.target.nextSibling.style.display = "flex";
+                  }}
+                />
+                <div className="photo-fallback" style={{ display: "none" }}>
+                  <FontAwesomeIcon icon={faUser} className="placeholder-icon" />
+                </div>
               </div>
 
               <h3 className="member-name">{member.name}</h3>
