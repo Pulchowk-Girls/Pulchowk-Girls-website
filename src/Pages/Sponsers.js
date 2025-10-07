@@ -10,9 +10,9 @@ function Sponsers() {
     { src: "/images/Sponsers/Plantae.png", alt: "Sponsor 3" },
     { src: "/Logo.png", alt: "Sponsor 4" },
     { src: "/Logo.png", alt: "Sponsor 5" },
-    { src: "/Logo.png", alt: "Sponsor 6" },
-    { src: "/Logo.png", alt: "Sponsor 7" },
-    { src: "/Logo.png", alt: "Sponsor 8" },
+    { src: "/images/Sponsers/Clamphook.png", alt: "Sponsor 6" },
+    { src: "/images/Sponsers/AAEC.png", alt: "Sponsor 7" },
+    { src: "/images/Sponsers/ArtisanBakery.png", alt: "Sponsor 8" },
     { src: "/Logo.png", alt: "Sponsor 9" },
     { src: "/Logo.png", alt: "Sponsor 10" },
   ];
