@@ -9,6 +9,7 @@ import {
   faGithub,
   faLinkedin,
   faInstagram,
+  faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 
 function ContactUs() {
@@ -49,11 +50,11 @@ function ContactUs() {
         <section className="follow-us-section">
           <h5 style={{ marginBottom: "20px" }}>FOLLOW US</h5>
           <p>
-            <FontAwesomeIcon icon={faFacebook} /> /pulchowk.girls <br />
-            <FontAwesomeIcon icon={faInstagram} /> /pulchowk.girls <br />
-            <FontAwesomeIcon icon={faGithub} /> /Pulchowk-girls <br />
+            <FontAwesomeIcon icon={faFacebook} />{" "}
+            <FontAwesomeIcon icon={faGithub} />{" "}
             <FontAwesomeIcon icon={faLinkedin} />{" "}
-            /company/ioe-pulchowk-girls/mycompany <br />
+            <FontAwesomeIcon icon={faInstagram} />{" "}
+            <FontAwesomeIcon icon={faDiscord} />{" "}
           </p>
         </section>
       </div>
