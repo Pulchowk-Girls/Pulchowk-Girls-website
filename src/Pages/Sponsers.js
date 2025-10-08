@@ -8,13 +8,13 @@ function Sponsers() {
     { src: "/images/Sponsers/Makuchhen.png", alt: "Makuchhen" },
     { src: "/images/Sponsers/Sarvada.png", alt: "Sponsor 2" },
     { src: "/images/Sponsers/Plantae.png", alt: "Sponsor 3" },
-    { src: "/Logo.png", alt: "Sponsor 4" },
-    { src: "/Logo.png", alt: "Sponsor 5" },
+    { src: "/images/Sponsers/Pathivara.jpg", alt: "Sponsor 4" },
+    { src: "/images/Sponsers/CNC.jpg", alt: "Sponsor 5" },
     { src: "/images/Sponsers/Clamphook.png", alt: "Sponsor 6" },
     { src: "/images/Sponsers/AAEC.png", alt: "Sponsor 7" },
     { src: "/images/Sponsers/ArtisanBakery.png", alt: "Sponsor 8" },
-    { src: "/Logo.png", alt: "Sponsor 9" },
-    { src: "/Logo.png", alt: "Sponsor 10" },
+    { src: "/images/Sponsers/The Plant Room.webp", alt: "Sponsor 9" },
+    { src: "/images/Sponsers/LooksCart.webp", alt: "Sponsor 10" },
   ];
 
   useEffect(() => {
