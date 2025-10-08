@@ -1,32 +1,44 @@
-.contact-us-container {
-  padding: 40px 0 0 0;
-  background-color: #f8f9fa;
-}
-tact-us-container {
-  padding: 40px 0 0 0;
-  background-color: #d8c8ff;
-}
+
 .contact-us-container-content {
   padding: 40px;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #202020;
   display: flex;
   justify-content: space-between;
   gap: 40px;
 }
 
-.contact-us-header {
-  flex: 1;
-}
-
-.quick-links-section {
-  flex: 1;
-}
-
+.contact-us-header,
+.quick-links-section,
 .follow-us-section {
   flex: 1;
+  position: relative;
+}
+
+.contact-us-header h5,
+.quick-links-section h5,
+.follow-us-section h5 {
+  font-family: "Sofia Sans Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #a4048b;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.contact-us-header h5::after,
+.quick-links-section h5::after,
+.follow-us-section h5::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background: #a4048b;
+  border-radius: 1px;
 }
 
 .follow-us-section .fa-facebook,

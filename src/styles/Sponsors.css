@@ -3,6 +3,32 @@
   width: 100%;
   overflow: hidden;
   margin-bottom: 80px;
+  position: relative;
+  background: linear-gradient(
+    135deg,
+    rgba(248, 249, 250, 0.8),
+    rgba(255, 255, 255, 0.9)
+  );
+  padding: 40px 0;
+  border-radius: 12px;
+}
+
+.carousel-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    transparent 15%,
+    transparent 85%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* Carousel Track */
@@ -10,7 +36,7 @@
   display: flex;
   width: calc(250px * 20); /* 20 items * 250px each */
   animation: scroll 30s linear infinite;
-  gap: 60px;
+  gap: 30px;
   align-items: center;
 }
 
@@ -22,19 +48,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 2;
 }
 
 .sponsor-card img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 90%;
+  max-height: 90%;
   object-fit: contain;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease, transform 0.3s ease;
+  filter: grayscale(100%) brightness(1.1) contrast(0.9);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .sponsor-card:hover img {
-  filter: grayscale(0%);
-  transform: scale(1.1);
+  filter: grayscale(0%) brightness(1) contrast(1);
+  transform: scale(1.08);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
 /* Carousel Animation */
