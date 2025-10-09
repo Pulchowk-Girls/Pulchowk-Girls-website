@@ -13,6 +13,20 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 function ContactUs() {
+  const handleClick = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      const navbarHeight = 76; // Height of the fixed navbar
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - navbarHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <div id="ContactUs" className="contact-us-container">
       <img
@@ -40,10 +54,32 @@ function ContactUs() {
         <section className="quick-links-section">
           <h5 style={{ marginBottom: "20px" }}>QUICK LINKS</h5>
           <p>
-            Home <br />
-            About Us <br />
-            Events <br />
-            Sponsors <br />
+            <span onClick={() => handleClick("home")} className="quick-link">
+              Home
+            </span>{" "}
+            <br />
+            <span onClick={() => handleClick("AboutUs")} className="quick-link">
+              About Us
+            </span>{" "}
+            <br />
+            <span onClick={() => handleClick("Events")} className="quick-link">
+              Events
+            </span>{" "}
+            <br />
+            <span
+              onClick={() => handleClick("Sponsers")}
+              className="quick-link"
+            >
+              Sponsors
+            </span>{" "}
+            <br />
+            <span
+              onClick={() => handleClick("Committee")}
+              className="quick-link"
+            >
+              Committee
+            </span>{" "}
+            <br />
           </p>
         </section>
 
