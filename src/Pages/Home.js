@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
+    <div id="home">
       <img
         src="images/home/group.png"
         alt="Group"

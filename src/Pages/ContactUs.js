@@ -14,7 +14,7 @@ import {
 
 function ContactUs() {
   return (
-    <div className="contact-us-container">
+    <div id="ContactUs" className="contact-us-container">
       <img
         src="/Logo.png"
         alt="Logo"

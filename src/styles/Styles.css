@@ -67,3 +67,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section spacing for fixed navbar */
+#home,
+#AboutUs,
+#Events,
+#Sponsers,
+#Committee,
+#ContactUs {
+  scroll-margin-top: 76px; /* Height of fixed navbar */
+}

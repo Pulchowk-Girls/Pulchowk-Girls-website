@@ -206,7 +206,7 @@ function Committee() {
   ];
 
   return (
-    <div className="container">
+    <div id="Committee" className="container">
       <div className="container-header">
         <h1>Meet Our Committee</h1>
       </div>

@@ -13,7 +13,7 @@ function Events() {
   const [hovered8, setHovered8] = useState(false);
   const [hovered9, setHovered9] = useState(false);
   return (
-    <div className="container">
+    <div id="Events" className="container">
       <div className="container-header">
         <h1>Recent Events</h1>
       </div>
@@ -96,7 +96,9 @@ function Events() {
             alt="Event 4"
           />
           <div className="card-img-overlay">
-            <h6 className="card-title">Supporting Children Initiative Foundation (SCIF) NEPAL</h6>
+            <h6 className="card-title">
+              Supporting Children Initiative Foundation (SCIF) NEPAL
+            </h6>
           </div>
         </div>
 

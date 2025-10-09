@@ -30,7 +30,7 @@ function Sponsers() {
   }, []);
 
   return (
-    <div className="container">
+    <div id="Sponsers" className="container">
       <div className="container-header">
         <h1>Partners and Collaborators</h1>
       </div>
