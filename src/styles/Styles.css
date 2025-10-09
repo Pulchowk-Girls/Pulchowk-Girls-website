@@ -1,17 +1,8 @@
-/* Global Professional Enhancements */
-
-/* styles.css */
-.navbar-custom .nav-link,
-.navbar-custom .dropdown-toggle {
-  color: white !important;
-}
-
-/* Navbar hover effects similar to Follow Us icons */
+/* Navbar hover effects */
 .navbar .nav-link {
   transition: transform 0.3s ease, color 0.3s ease !important;
   color: #4a4a4a !important;
   font-weight: 400;
-  position: relative;
 }
 
 .navbar .nav-link:hover {
@@ -21,11 +12,10 @@
 
 .container-header {
   text-align: center;
-  margin-bottom: 50px;
-  font-family: "Sofia Sans Bold", sans-serif;
+  margin: 0 auto 50px;
+  font-family: "Nunito", sans-serif;
   -webkit-text-stroke: 1px #be2a83;
   color: #be2a83;
-  margin: 0 auto;
   padding: 30px 20px;
   position: relative;
 }
@@ -81,4 +71,72 @@ html {
 #Committee,
 #ContactUs {
   scroll-margin-top: 76px; /* Height of fixed navbar */
+}
+
+/* Home Page Container and Overlay */
+.home-container {
+  position: relative;
+  width: 100%;
+}
+
+.home-title-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  text-align: center;
+}
+
+.home-title-overlay h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: clamp(1.5rem, 6vw, 4rem);
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+  text-transform: uppercase;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 0.3s forwards,
+    subtlePulse 2s ease-in-out 1.5s infinite;
+}
+
+.home-subtitle {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: clamp(0.8rem, 2.5vw, 1.5rem);
+  font-weight: 400;
+  color: white;
+  margin: 10px 0 0 0;
+  letter-spacing: 0.15em;
+  line-height: 1;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 0.8s forwards;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes subtlePulse {
+  0%,
+  100% {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  }
+  50% {
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9),
+      0 0 20px rgba(255, 255, 255, 0.1);
+  }
 }

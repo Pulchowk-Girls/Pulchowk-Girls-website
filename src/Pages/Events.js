@@ -96,9 +96,7 @@ function Events() {
             alt="Event 4"
           />
           <div className="card-img-overlay">
-            <h6 className="card-title">
-              Supporting Children Initiative Foundation (SCIF) NEPAL
-            </h6>
+            <h6 className="card-title">Supporting Children Initiative Foundation (SCIF) NEPAL</h6>
           </div>
         </div>
 
