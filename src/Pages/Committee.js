@@ -25,7 +25,11 @@ function Committee() {
       position: "Secretary",
       bio: "Oversees communication, documentation, and smooth coordination across all operations.",
       photo: "/images/Committee/Anupa.jpg",
-      social: { linkedin: "#", github: "#" },
+      social: {
+        linkedin: "https://www.linkedin.com/in/anupa-ranabhat/",
+        github: "https://github.com/anupa-rb",
+        instagram: "https://www.instagram.com/anupa.ranabhat/",
+      },
     },
     {
       id: 3,
