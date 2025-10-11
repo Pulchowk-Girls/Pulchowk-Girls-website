@@ -86,11 +86,41 @@ function ContactUs() {
         <section className="follow-us-section">
           <h5 style={{ marginBottom: "20px" }}>FOLLOW US</h5>
           <p>
-            <FontAwesomeIcon icon={faFacebook} />{" "}
-            <FontAwesomeIcon icon={faGithub} />{" "}
-            <FontAwesomeIcon icon={faLinkedin} />{" "}
-            <FontAwesomeIcon icon={faInstagram} />{" "}
-            <FontAwesomeIcon icon={faDiscord} />{" "}
+            <a
+              href="https://www.facebook.com/pulchowk.girls"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>{" "}
+            <a
+              href="https://github.com/pulchowk-girls"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>{" "}
+            <a
+              href="https://www.linkedin.com/company/ioe-pulchowk-girls/posts/?feedView=all"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>{" "}
+            <a
+              href="https://www.instagram.com/pulchowk.girls/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>{" "}
+            <a
+              href="https://discord.gg/u6rrgSSr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faDiscord} />{" "}
+            </a>
           </p>
         </section>
       </div>
