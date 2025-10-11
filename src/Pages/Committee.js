@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Committee.css";
 import {
+  faFacebook,
   faLinkedin,
   faGithub,
   faInstagram,
@@ -17,7 +18,7 @@ function Committee() {
       position: "President",
       bio: "Leads the team with vision and purpose, driving initiatives that empower women in technology.",
       photo: "/images/Committee/Sujita.jpg",
-      social: { linkedin: "#", github: "#", instagram: "#" },
+      social: { facebook: "https://www.facebook.com/sujita.sharma.167", linkedin: "https://www.linkedin.com/in/sujita-sharma-33a38032a?trk=contact-info", instagram: "https://www.instagram.com/_sujitaaa__?igsh=MXdlaGc3ZWp4a2Yxeg%3D%3D&utm_source=qr" },
     },
     {
       id: 2,
@@ -26,6 +27,7 @@ function Committee() {
       bio: "Oversees communication, documentation, and smooth coordination across all operations.",
       photo: "/images/Committee/Anupa.jpg",
       social: {
+        facebook: "https://www.facebook.com/anupa.ranabhat.94",
         linkedin: "https://www.linkedin.com/in/anupa-ranabhat/",
         github: "https://github.com/anupa-rb",
         instagram: "https://www.instagram.com/anupa.ranabhat/",
@@ -61,7 +63,7 @@ function Committee() {
       position: "Public Relations Manager",
       bio: "Builds connections with partners and promotes the organization’s vision to the public.",
       photo: "/images/Committee/Rittika.jpg",
-      social: { linkedin: "#", github: "#" },
+      social: { facebook:"https://www.facebook.com/rittika.parajuli.96", linkedin: "https://www.linkedin.com/in/rittika-parajuli-60045024a/", instagram: "https://www.instagram.com/rittiks.aa/" },
     },
     {
       id: 7,
@@ -85,7 +87,7 @@ function Committee() {
       position: "Social Media Manager",
       bio: "Creating engaging content for various platforms and publications.",
       photo: "/images/Committee/Srijana.jpg",
-      social: { linkedin: "#", instagram: "#" },
+      social: { facebook: "https://www.facebook.com/srijusabbu.pant", linkedin: "https://www.linkedin.com/in/srijana-pant-0224b0386/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B2gGanc%2F1SnukiunySSsMCA%3D%3D", instagram: "https://www.instagram.com/srijanapant_11/?hl=en#" },
     },
     {
       id: 10,
@@ -241,6 +243,16 @@ function Committee() {
               <div className="member-bio">{member.bio}</div>
 
               <div className="member-social">
+                {member.social.facebook && (
+                  <a
+                    href={member.social.facebook}
+                    className="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </a>
+                )}
                 {member.social.linkedin && (
                   <a
                     href={member.social.linkedin}
