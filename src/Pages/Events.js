@@ -27,15 +27,15 @@ function Events() {
           <img
             src={
               hovered
-                ? "images/Events/PAVAN_poster_hover.jpg"
-                : "images/Events/PAVAN_poster.jpg"
+                ? "images/Events/SCIF2_hover.jpg"
+                : "images/Events/SCIF2.jpg"
             }
             className="card-img"
             alt="Event 1"
           />
           <div className="card-img-overlay">
             <h6 className="card-title">
-              PAVAN - Pads Accessible Visible Available Now
+              Supporting Children Initiative Foundation (SCIF) NEPAL
             </h6>
           </div>
         </div>
@@ -48,15 +48,15 @@ function Events() {
           <img
             src={
               hovered2
-                ? "images/Events/Financial_Literacy_hover.png"
-                : "images/Events/Financial_Literacy.png"
+                ? "images/Events/Herizon.jpg"
+                : "images/Events/Herizon_hover.jpg"
             }
             className="card-img"
             alt="Event 2"
           />
           <div className="card-img-overlay">
             <h6 className="card-title">
-              Women and the Economy: The Role of Financial Literacy
+              Herizon - National Empowerment Summit
             </h6>
           </div>
         </div>
@@ -69,14 +69,16 @@ function Events() {
           <img
             src={
               hovered3
-                ? "images/Events/Women_InLead_hover.png"
-                : "images/Events/Women_InLead.png"
+                ? "images/Events/panel_discussion_hover.jpg"
+                : "images/Events/panel_discussion.jpg"
             }
             className="card-img"
             alt="Event 3"
           />
           <div className="card-img-overlay">
-            <h6 className="card-title">Women in Lead: Voices That Matter</h6>
+            <h6 className="card-title">
+              Panel Discussion on From Law to Ground Reality
+            </h6>
           </div>
         </div>
 
@@ -89,14 +91,14 @@ function Events() {
           <img
             src={
               hovered4
-                ? "images/Events/SCIF_hover.png"
-                : "images/Events/SCIF.png"
+                ? "images/Events/Herizon_talkshow.jpg"
+                : "images/Events/Herizon_talkshow_hover.jpg"
             }
             className="card-img"
             alt="Event 4"
           />
           <div className="card-img-overlay">
-            <h6 className="card-title">Supporting Children Initiative Foundation (SCIF) NEPAL</h6>
+            <h6 className="card-title">HERIZON Talk Show - Her Stories</h6>
           </div>
         </div>
 
@@ -108,14 +110,16 @@ function Events() {
           <img
             src={
               hovered5
-                ? "images/Events/Impact_Marathon_hover.png"
-                : "images/Events/Impact_Marathon.png"
+                ? "images/Events/PAVAN_poster_hover.jpg"
+                : "images/Events/PAVAN_poster.jpg"
             }
             className="card-img"
             alt="Event 5"
           />
           <div className="card-img-overlay">
-            <h6 className="card-title">Third Imapact Marathon</h6>
+            <h6 className="card-title">
+              PAVAN - Pads Accessible Visible Available Now
+            </h6>
           </div>
         </div>
 
@@ -125,12 +129,18 @@ function Events() {
           onMouseLeave={() => setHovered6(false)}
         >
           <img
-            src="images/Events/PAVAN_poster.jpg"
+            src={
+              hovered6
+                ? "images/Events/Financial_Literacy_hover.png"
+                : "images/Events/Financial_Literacy.png"
+            }
             className="card-img"
             alt="Event 6"
           />
           <div className="card-img-overlay">
-            <h6 className="card-title">Event Title 6</h6>
+            <h6 className="card-title">
+              Women and the Economy: The Role of Financial Literacy
+            </h6>
           </div>
         </div>
 
@@ -141,12 +151,16 @@ function Events() {
           onMouseLeave={() => setHovered7(false)}
         >
           <img
-            src="images/Events/PAVAN_poster.jpg"
+            src={
+              hovered7
+                ? "images/Events/Women_InLead_hover.png"
+                : "images/Events/Women_InLead.png"
+            }
             className="card-img"
             alt="Event 7"
           />
           <div className="card-img-overlay">
-            <h6 className="card-title">Event Title 7</h6>
+            <h6 className="card-title">Women in Lead: Voices That Matter</h6>
           </div>
         </div>
 
@@ -156,12 +170,18 @@ function Events() {
           onMouseLeave={() => setHovered8(false)}
         >
           <img
-            src="images/Events/PAVAN_poster.jpg"
+            src={
+              hovered8
+                ? "images/Events/SCIF_hover.png"
+                : "images/Events/SCIF.png"
+            }
             className="card-img"
             alt="Event 8"
           />
           <div className="card-img-overlay">
-            <h6 className="card-title">Event Title 8</h6>
+            <h6 className="card-title">
+              Supporting Children Initiative Foundation (SCIF) NEPAL
+            </h6>
           </div>
         </div>
 
@@ -171,12 +191,16 @@ function Events() {
           onMouseLeave={() => setHovered9(false)}
         >
           <img
-            src="images/Events/PAVAN_poster.jpg"
+            src={
+              hovered9
+                ? "images/Events/Impact_Marathon_hover.jpg"
+                : "images/Events/Impact_Marathon.jpg"
+            }
             className="card-img"
             alt="Event 9"
           />
           <div className="card-img-overlay">
-            <h6 className="card-title">Event Title 9</h6>
+            <h6 className="card-title">Fourth Imapact Marathon</h6>
           </div>
         </div>
       </div>

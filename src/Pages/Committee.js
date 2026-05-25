@@ -18,7 +18,13 @@ function Committee() {
       position: "President",
       bio: "Leads the team with vision and purpose, driving initiatives that empower women in technology.",
       photo: "/images/Committee/Sujita.jpg",
-      social: { facebook: "https://www.facebook.com/sujita.sharma.167", linkedin: "https://www.linkedin.com/in/sujita-sharma-33a38032a?trk=contact-info", instagram: "https://www.instagram.com/_sujitaaa__?igsh=MXdlaGc3ZWp4a2Yxeg%3D%3D&utm_source=qr" },
+      social: {
+        facebook: "https://www.facebook.com/sujita.sharma.167",
+        linkedin:
+          "https://www.linkedin.com/in/sujita-sharma-33a38032a?trk=contact-info",
+        instagram:
+          "https://www.instagram.com/_sujitaaa__?igsh=MXdlaGc3ZWp4a2Yxeg%3D%3D&utm_source=qr",
+      },
     },
     {
       id: 2,
@@ -39,7 +45,10 @@ function Committee() {
       position: "Event Manager",
       bio: "Coordinates large-scale programs and ensures event logistics run seamlessly.",
       photo: "/images/Committee/Swastika.jpg",
-      social: { linkedin: "#", instagram: "#" },
+      social: {
+        facebook: "http://swastikawww.facebook.com/divyashree.acharya.2025/",
+        instagram: "https://www.instagram.com/dshreea_/",
+      },
     },
     {
       id: 4,
@@ -63,7 +72,11 @@ function Committee() {
       position: "Public Relations Manager",
       bio: "Builds connections with partners and promotes the organization’s vision to the public.",
       photo: "/images/Committee/Rittika.jpg",
-      social: { facebook:"https://www.facebook.com/rittika.parajuli.96", linkedin: "https://www.linkedin.com/in/rittika-parajuli-60045024a/", instagram: "https://www.instagram.com/rittiks.aa/" },
+      social: {
+        facebook: "https://www.facebook.com/rittika.parajuli.96",
+        linkedin: "https://www.linkedin.com/in/rittika-parajuli-60045024a/",
+        instagram: "https://www.instagram.com/rittiks.aa/",
+      },
     },
     {
       id: 7,
@@ -87,7 +100,12 @@ function Committee() {
       position: "Social Media Manager",
       bio: "Creating engaging content for various platforms and publications.",
       photo: "/images/Committee/Srijana.jpg",
-      social: { facebook: "https://www.facebook.com/srijusabbu.pant", linkedin: "https://www.linkedin.com/in/srijana-pant-0224b0386/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B2gGanc%2F1SnukiunySSsMCA%3D%3D", instagram: "https://www.instagram.com/srijanapant_11/?hl=en#" },
+      social: {
+        facebook: "https://www.facebook.com/srijusabbu.pant",
+        linkedin:
+          "https://www.linkedin.com/in/srijana-pant-0224b0386/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B2gGanc%2F1SnukiunySSsMCA%3D%3D",
+        instagram: "https://www.instagram.com/srijanapant_11/?hl=en#",
+      },
     },
     {
       id: 10,
@@ -95,7 +113,9 @@ function Committee() {
       position: "Technical Manager",
       bio: "Leads the tech wing, mentoring members and overseeing innovative tech projects.",
       photo: "/images/Committee/Anuja.jpg",
-      social: { linkedin: "#", github: "#" },
+      social: {
+        linkedin: "https://www.linkedin.com/in/anuja-gyawali-39ba0a266/",
+      },
     },
     {
       id: 11,
@@ -103,7 +123,7 @@ function Committee() {
       position: "Technical Manager",
       bio: "Oversees design quality and ensures visual consistency across platforms.",
       photo: "/images/Committee/Sachita.jpg",
-      social: { linkedin: "#", github: "#" },
+      social: { facebook: "https://www.facebook.com/sachita.aryal.7" },
     },
     {
       id: 12,
@@ -111,7 +131,7 @@ function Committee() {
       position: "Technical Manager",
       bio: "Brings creative concepts to life through innovative digital designs.",
       photo: "/images/Committee/Sadina.jpg",
-      social: { linkedin: "#", github: "#" },
+      social: { facebook: "https://www.facebook.com/sadina.upreti.7" },
     },
     {
       id: 13,
@@ -127,7 +147,11 @@ function Committee() {
       position: "Event Coordinator",
       bio: "Supports event execution and ensures interactive, inclusive participation.",
       photo: "/images/Committee/Pratistha.jpg",
-      social: { linkedin: "#", instagram: "#" },
+      social: {
+        facebook: "https://www.facebook.com/pratistha.shrestha.5055/",
+        instagram:
+          "https://www.instagram.com/pratistha_shrest?igsh=MTc2cms2czZ1d3FlNQ==",
+      },
     },
     {
       id: 15,
@@ -143,7 +167,10 @@ function Committee() {
       position: "Event Coordinator",
       bio: "Organizes volunteer initiatives and community engagement programs.",
       photo: "/images/Committee/SwastikaL.jpg",
-      social: { linkedin: "#" },
+      social: {
+        facebook: "https://www.facebook.com/swostika.lamichhane.982",
+        instagram: "https://www.instagram.com/swastikalamichhane5/",
+      },
     },
     {
       id: 17,
@@ -159,7 +186,7 @@ function Committee() {
       position: "Social Media Coordinator",
       bio: "Creates, curates, and schedules posts that highlight our initiatives.",
       photo: "/images/Committee/Samrachana.webp",
-      social: { linkedin: "#", instagram: "#" },
+      social: { facebook: "https://www.facebook.com/samrachana.sharma.184" },
     },
     {
       id: 19,
@@ -167,7 +194,10 @@ function Committee() {
       position: "Social Media Coordinator",
       bio: "Manages content calendars and posts engaging visuals that enhance our online presence.",
       photo: "/images/Committee/Swechchha.jpg",
-      social: { linkedin: "#", instagram: "#" },
+      social: {
+        facebook: "https://facebook.com/swechchhapokhrel",
+        instagram: "https://www.instagram.com/swech_chha0/#",
+      },
     },
     {
       id: 20,
