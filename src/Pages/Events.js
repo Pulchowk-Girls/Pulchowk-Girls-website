@@ -172,15 +172,15 @@ function Events() {
           <img
             src={
               hovered8
-                ? "images/Events/SCIF_hover.png"
-                : "images/Events/SCIF.png"
+                ? "images/Events/mens_hygiene.jpg"
+                : "images/Events/mens_hygiene_hover.jpg"
             }
             className="card-img"
             alt="Event 8"
           />
           <div className="card-img-overlay">
             <h6 className="card-title">
-              Supporting Children Initiative Foundation (SCIF) NEPAL
+              Menstrual Health Awareness & Sanitary Kit Distribution Program
             </h6>
           </div>
         </div>
