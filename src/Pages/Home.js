@@ -11,6 +11,7 @@ function Home() {
       <img
         src="images/home/group.png"
         alt="Group"
+        loading="lazy"
         style={{
           width: "100%",
           height: "auto",

@@ -30,6 +30,7 @@ function Events() {
                 ? "images/Events/SCIF2_hover.jpg"
                 : "images/Events/SCIF2.jpg"
             }
+            loading="lazy"
             className="card-img"
             alt="Event 1"
           />
@@ -51,6 +52,7 @@ function Events() {
                 ? "images/Events/Herizon.jpg"
                 : "images/Events/Herizon_hover.jpg"
             }
+            loading="lazy"
             className="card-img"
             alt="Event 2"
           />
@@ -72,6 +74,7 @@ function Events() {
                 ? "images/Events/panel_discussion_hover.jpg"
                 : "images/Events/panel_discussion.jpg"
             }
+            loading="lazy"
             className="card-img"
             alt="Event 3"
           />
@@ -94,6 +97,7 @@ function Events() {
                 ? "images/Events/Herizon_talkshow.jpg"
                 : "images/Events/Herizon_talkshow_hover.jpg"
             }
+            loading="lazy"
             className="card-img"
             alt="Event 4"
           />
@@ -113,6 +117,7 @@ function Events() {
                 ? "images/Events/PAVAN_poster_hover.jpg"
                 : "images/Events/PAVAN_poster.jpg"
             }
+            loading="lazy"
             className="card-img"
             alt="Event 5"
           />
@@ -134,6 +139,7 @@ function Events() {
                 ? "images/Events/Financial_Literacy_hover.png"
                 : "images/Events/Financial_Literacy.png"
             }
+            loading="lazy"
             className="card-img"
             alt="Event 6"
           />
@@ -156,6 +162,7 @@ function Events() {
                 ? "images/Events/Women_InLead_hover.png"
                 : "images/Events/Women_InLead.png"
             }
+            loading="lazy"
             className="card-img"
             alt="Event 7"
           />
@@ -175,6 +182,7 @@ function Events() {
                 ? "images/Events/mens_hygiene.jpg"
                 : "images/Events/mens_hygiene_hover.jpg"
             }
+            loading="lazy"
             className="card-img"
             alt="Event 8"
           />
@@ -196,6 +204,7 @@ function Events() {
                 ? "images/Events/Impact_Marathon_hover.jpg"
                 : "images/Events/Impact_Marathon.jpg"
             }
+            loading="lazy"
             className="card-img"
             alt="Event 9"
           />

@@ -51,7 +51,7 @@ function Sponsers() {
           <h4>Title Sponsor</h4>
           {titleSponsors.map((sponsor, index) => (
             <div key={index} className="title-sponsor-card">
-              <img src={sponsor.src} alt={sponsor.alt} />
+              <img src={sponsor.src} alt={sponsor.alt} loading="lazy" />
             </div>
           ))}
         </div>
@@ -61,7 +61,7 @@ function Sponsers() {
         <div className="carousel-track" ref={trackRef}>
           {sponsors.map((sponsor, index) => (
             <div key={index} className="sponsor-card">
-              <img src={sponsor.src} alt={sponsor.alt} />
+              <img src={sponsor.src} alt={sponsor.alt} loading="lazy" />
             </div>
           ))}
         </div>
